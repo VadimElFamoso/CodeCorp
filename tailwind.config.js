@@ -18,6 +18,9 @@ module.exports = {
         'secondary': '#141313',
         'tertiary': '#F1F2EE',
       },
+      listStyleImage: {
+        check: "url('/public/check.svg')",
+      },
       keyframes:{
         logobounce:{
           '0%, 100%': { transform: 'translateY(-50px);' },
