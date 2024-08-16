@@ -1,0 +1,34 @@
+<template>
+    <div class="relative bg-tertiary opacity-100 h-screen w-full">
+        <div class="border-b-2 border-secondary m-auto font-ethnocentric font-bold text-secondary text-5xl py-16 w-10/12">
+            <h2>Services</h2>
+        </div>
+        <div class="relative gap-40 m-auto w-10/12 flex flex-row-reverse">
+            <div>
+                <img class="w-[400px] h-[400px] right-0 top-0 object-cover" src="../public/dev.jpg" alt="">
+                <p class=""></p>
+            </div>
+            <div class="flex flex-col gap-8 text-right text-2xl justify-end text-secondary underline font-ethnocentric font-bold">
+                <a class= "hover:text-primary transition" href="">Création de sites web</a>
+                <a class= "hover:text-primary transition" href="">Audit web</a>
+                <a class= "hover:text-primary transition" href="">Optimisation SEO</a>
+                <a class= "hover:text-primary transition" href="">Prototypage UI/UX</a>
+                <a class= "hover:text-primary transition" href="">Cybersécurité</a>
+             </div>
+        </div>
+        
+        <div class="absolute bottom-0 font-ethnocentric left-1/2 -translate-y-1/2 -translate-x-1/2 text-center text-secondary w-10/12 text-2xl">
+            <p>Code - Créativité - Innovation - Design - Responsive - Performance - Technologie - JavaScript - Frontend - Backend - Sécurité - UX/UI - API - HTML - CSS - Optimisation - Accessibilité - Automatisation - Intégration - Maintenance - SEO - Adaptabilité - Collaboration - Analyse - Développement Agile</p>
+        </div>
+    </div>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style>
+
+</style>
