@@ -1,8 +1,9 @@
 <template>
      <div>
-     <landing/>
-     <services/>
-     <plans/>
-     <projects/>
+          <landing/>
+          <services/>
+          <plans/>
+          <projects/>
+          <blog/>
      </div>
 </template>

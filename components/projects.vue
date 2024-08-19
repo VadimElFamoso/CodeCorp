@@ -5,46 +5,63 @@
     </div>
 
     <div class="grid grid-cols-4 grid-rows-2 gap-10 justify-self-center items-end w-10/12 justify-items-end m-auto">
-        <div class="relative card">
+        <div class="relative project_card">
             <img class="h-[325px] w-[325px] object-cover" src="../public/dev.jpg" alt="">
-            <h3>Boulangerie</h3>
-            <a href="">Découvrir</a>
+            <div class="absolute hidden -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 text-center text-tertiary details">
+                <h3>Boulangerie</h3>
+                <a href="">Découvrir</a>
+            </div>
         </div>
-        <div class="relative card">
+        <div class="relative project_card">
             <img class="h-[325px] w-[325px] object-cover" src="../public/dev.jpg" alt="">
-            <h3>Boulangerie</h3>
-            <a href="">Découvrir</a>
+            <div class="absolute hidden -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 text-center text-tertiary details">
+                <h3>Boulangerie</h3>
+                <a href="">Découvrir</a>
+            </div>
         </div>
-        <div class="relative card">
+        <div class="relative project_card">
             <img class="h-[325px] w-[325px] object-cover" src="../public/dev.jpg" alt="">
-            <h3>Boulangerie</h3>
-            <a href="">Découvrir</a>
+            <div class="absolute hidden -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 text-center text-tertiary details">
+                <h3>Boulangerie</h3>
+                <a href="">Découvrir</a>
+            </div>
         </div>
-        <div class="relative card">
+        <div class="relative project_card">
             <img class="h-[325px] w-[325px] object-cover" src="../public/dev.jpg" alt="">
-            <h3>Boulangerie</h3>
-            <a href="">Découvrir</a>
+            <div class="absolute hidden -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 text-center text-tertiary details">
+                <h3>Boulangerie</h3>
+                <a href="">Découvrir</a>
+            </div>
         </div>
-        <div class="relative card">
+        <div class="relative project_card">
             <img class="h-[325px] w-[325px] object-cover" src="../public/dev.jpg" alt="">
-            <h3>Boulangerie</h3>
-            <a href="">Découvrir</a>
+            <div class="absolute hidden -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 text-center text-tertiary details">
+                <h3>Boulangerie</h3>
+                <a href="">Découvrir</a>
+            </div>
         </div>
-        <div class="relative card">
+        <div class="relative project_card">
             <img class="h-[325px] w-[325px] object-cover" src="../public/dev.jpg" alt="">
-            <h3>Boulangerie</h3>
-            <a href="">Découvrir</a>
+            <div class="absolute hidden -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 text-center text-tertiary details">
+                <h3>Boulangerie</h3>
+                <a href="">Découvrir</a>
+            </div>
         </div>
-        <div class="relative card">
+        <div class="relative project_card">
             <img class="h-[325px] w-[325px] object-cover" src="../public/dev.jpg" alt="">
-            <h3>Boulangerie</h3>
-            <a href="">Découvrir</a>
+            <div class="absolute hidden -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 text-center text-tertiary details">
+                <h3>Boulangerie</h3>
+                <a href="">Découvrir</a>
+            </div>
         </div>
-        <div class="relative card">
+        <div class="relative project_card">
             <img class="h-[325px] w-[325px] object-cover" src="../public/dev.jpg" alt="">
-            <h3>Boulangerie</h3>
-            <a href="">Découvrir</a>
+            <div class="absolute hidden -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 text-center text-tertiary details">
+                <h3>Boulangerie</h3>
+                <a href="">Découvrir</a>
+            </div>
         </div>
+
 
     </div>
   </div>
@@ -57,23 +74,7 @@ export default {
 </script>
 
 <style>
-    .card{
-        border: 2px solid red;
-    }
-    .card h3{
-        display: none;
-    }
-    .card a{
-        display: none;
-    }
-    /*Au hover : nous présentons le titre du projet et un bouton qui redirige vers le projet.*/
-    .grid img:hover{
-        
-    }
-    .card:hover h3{
-        display: absolute;
-    }
-    .card:hover a{
-        display: absolute;
+    .project_card:hover .details{
+        display: block;
     }
 </style>
