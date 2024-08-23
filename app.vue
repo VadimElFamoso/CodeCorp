@@ -4,6 +4,6 @@
           <services/>
           <plans/>
           <projects/>
-          <blog/>
+           <ftr/>
      </div>
 </template>

@@ -8,8 +8,8 @@
         <div class="relative project_card">
             <img class="h-[325px] w-[325px] object-cover" src="../public/dev.jpg" alt="">
             <div class="absolute hidden -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 text-center text-tertiary details">
-                <h3>Boulangerie</h3>
-                <a href="">Découvrir</a>
+                <h3 class="bg-primary font-ethnocentric p-2 -rotate-6 text-secondary">Boulangerie</h3>
+                <a class="font-area text-lg underline w-full" href="">Découvrir le projet.</a>
             </div>
         </div>
         <div class="relative project_card">
@@ -22,7 +22,7 @@
         <div class="relative project_card">
             <img class="h-[325px] w-[325px] object-cover" src="../public/dev.jpg" alt="">
             <div class="absolute hidden -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 text-center text-tertiary details">
-                <h3>Boulangerie</h3>
+                <h3 class="">Boulangerie</h3>
                 <a href="">Découvrir</a>
             </div>
         </div>
@@ -75,6 +75,8 @@ export default {
 
 <style>
     .project_card:hover .details{
-        display: block;
+        display: flex;
+        flex-direction: column;
+        gap: .75rem;
     }
 </style>
