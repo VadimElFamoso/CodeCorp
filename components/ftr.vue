@@ -1,14 +1,14 @@
 <template>
-    <div class="relative bg-secondary py-4 w-full">
-        <img class="h-auto m-auto w-3/12" src="../public/codecorp_logo_text.png" alt="">
-        <div class="flex font-ethnocentric gap-20 my-2 justify-center text-tertiary text-lg underline">
-            <a href="">Services</a>
-            <a href="">Projets</a>
-            <a href="">A propos</a>
-            <a href="">Blog</a>
+    <div class="relative border-primary border-t-8 bg-secondary py-8 w-full">
+        <img class="h-auto m-auto pb-4 w-3/12" src="../public/codecorp_logo_text.png" alt="">
+        <div class="flex flex-col items-center font-ethnocentric gap-2  text-tertiary text-lg underline">
+            <a class="hover:text-primary transition" href="">Services</a>
+            <a class="hover:text-primary transition" href="">Projets</a>
+            <a class="hover:text-primary transition" href="">A propos</a>
+            <a class="hover:text-primary transition" href="">Blog</a>
+            <a class="hover:text-primary transition" href="">Mentions légales</a>
         </div>
-        <p class="font-ethnocentric text-center text-tertiary my-2">Made with <span class="text-red-500">&#10084;</span> in Nancy.</p>
-
+        <p class="font-ethnocentric text-center text-xs text-tertiary italic mt-5 opacity-85">Made with <span class="text-red-500">&#10084;</span> in Nancy.</p>
     </div>
 </template>
 

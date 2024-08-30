@@ -9,7 +9,7 @@
             <!--Card-->
             <div class="relative card h-[600px] w-1/4 p-8">
                 <h3 class="font-ethnocentric text-2xl text-tertiary font-bold mb-2">Site web <br>one-page</h3>
-                <h4 class="font-area text-base text-gray-400">Une présentation de votre activité. Une page, l'essentiel.</h4>
+                <h4 class="font-area text-base text-gray-500">Un site web optimisé pour la conversion client.</h4>
                 <p class="font-light font-ethnocentric text-tertiary text-xl py-2">A partir de <span class="text-primary font-bold">900€</span></p>
                 
                 <div class="font-area flex flex-col gap-2 py-4 text-tertiary">
@@ -20,7 +20,7 @@
                     <li class="list-image-check"><a href="">lorem sin blablabla</a></li>
                 </div>
                 
-                <a class="absolute bg-primary font-areaextended text-center text-sm text-secondary bottom-0 left-1/2 -translate-x-1/2 my-6 border-solid border-primary rounded-full py-3 w-10/12" href="">Découvrir l'offre.</a>
+                <a class="absolute border-2 bg-primary hover:bg-secondary hover:border-tertiary font-areaextended hover:text-tertiary transition text-center text-sm text-secondary bottom-0 left-1/2 -translate-x-1/2 my-6 border-solid border-primary rounded-full py-3 w-10/12" href="">Découvrir l'offre.</a>
             </div>
 
             <!--Card-->

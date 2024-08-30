@@ -19,7 +19,7 @@
 
         <div class="marquee-w bg-primary">
             <div class="marquee">
-                <span class="text-secondary font-ethnocentric">Code - Créativité - Innovation - Design - Responsive - Performance - Technologie - JavaScript - Frontend - Backend - Sécurité - UX/UI - API - HTML - CSS - Optimisation - Accessibilité - Automatisation - Intégration - Maintenance - SEO - Adaptabilité - Collaboration - Analyse - Développement Agile</span>
+                <span class="text-secondary font-ethnocentric -rotate-45">Code - Créativité - Innovation - Design - Responsive - Performance - Technologie - JavaScript - Frontend - Backend - Sécurité - UX/UI - API - HTML - CSS - Optimisation - Accessibilité - Automatisation - Intégration - Maintenance - SEO - Adaptabilité - Collaboration - Analyse - Développement Agile</span>
             </div>
 
             <div class="marquee marquee2">
