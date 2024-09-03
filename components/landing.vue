@@ -20,7 +20,7 @@
       </div>
   
       <!-- Main Content -->
-      <div class="font-ethnocentric font-bold mx-32 my-60 text-white text-6xl z-10 relative">
+      <div class="absolute -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 font-ethnocentric font-bold text-white text-6xl w-10/12 z-10">
         <p>Nous façonnons l'architecture, le paysage et l'intérieur du web moderne.</p>
         <a href=""></a>
       </div>
