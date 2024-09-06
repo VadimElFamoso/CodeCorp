@@ -11,7 +11,10 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        'animate-logobounce': 'logobounce 3s infinite;',
+        'animate-cta': 'spin 3s infinite;',
+      },
+      transitionDuration: {
+        '2000': '2000ms',
       },
       colors:{
         'primary': '#F199C5',
