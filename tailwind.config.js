@@ -21,6 +21,9 @@ module.exports = {
         'secondary': '#141313',
         'tertiary': '#F1F2EE',
       },
+      content:{
+        'eyes': 'url("/public/eyes.svg")',
+      },
       listStyleImage: {
         check: "url('/public/check.svg')",
       },
