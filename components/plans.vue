@@ -9,15 +9,15 @@
             <!--Card-->
             <div class="relative card h-[600px] w-1/4 p-8">
                 <h3 class="font-ethnocentric text-2xl text-tertiary font-bold mb-2">Site web <br>one-page</h3>
-                <h4 class="font-area text-base text-gray-500">Un site web optimisé pour la conversion client.</h4>
-                <p class="font-light font-ethnocentric text-tertiary text-xl py-2">A partir de <span class="text-primary font-bold">900€</span></p>
-                
+                <h4 class="font-area text-base text-gray-400">Un site web optimisé pour la conversion client.</h4>
+                <p class="font-light font-area text-tertiary text-xl py-2">A partir de <span class="font-ethnocentric text-primary font-bold">900€</span></p>
+
                 <div class="font-area flex flex-col gap-2 py-4 text-tertiary">
-                    <li class="list-image-check"><a href="">lorem sin blablabla</a></li>
-                    <li class="list-image-check"><a href="">lorem sin blablabla</a></li>
-                    <li class="list-image-check"><a href="">lorem sin blablabla</a></li>
-                    <li class="list-image-check"><a href="">lorem sin blablabla</a></li>
-                    <li class="list-image-check"><a href="">lorem sin blablabla</a></li>
+                    <li class="list-image-check">Lorem sin blabla</li>
+                    <li class="list-image-check">Lorem sin blabla</li>
+                    <li class="list-image-check">Lorem sin blabla</li>
+                    <li class="list-image-check">Lorem sin blabla</li>
+                    <li class="list-image-check">Lorem sin blabla</li>
                 </div>
                 
                 <a class="absolute border-2 bg-primary hover:bg-secondary hover:border-tertiary font-areaextended hover:text-tertiary transition text-center text-sm text-secondary bottom-0 left-1/2 -translate-x-1/2 my-6 border-solid border-primary rounded-full py-3 w-10/12" href="">Découvrir l'offre.</a>
@@ -27,17 +27,18 @@
             <div class="relative card h-[600px] w-1/4 p-8">
                 <h3 class="font-ethnocentric text-2xl text-tertiary font-bold mb-2">Site web <br>e-commerce</h3>
                 <h4 class="font-area text-base text-gray-400">Un site web optimisé pour la conversion client.</h4>
-                <p class="font-light font-ethnocentric text-tertiary text-xl py-2">A partir de <span class="text-primary font-bold">2000€</span></p>
+                <p class="font-light font-area text-tertiary text-xl py-2">A partir de <span class="font-bold font-ethnocentric text-primary">2000€</span></p>
                 
                 <div class="font-area flex flex-col gap-2 py-4 text-tertiary">
-                    <li class="list-image-check"><a href="">lorem sin blablabla</a></li>
-                    <li class="list-image-check"><a href="">lorem sin blablabla</a></li>
-                    <li class="list-image-check"><a href="">lorem sin blablabla</a></li>
-                    <li class="list-image-check"><a href="">lorem sin blablabla</a></li>
-                    <li class="list-image-check"><a href="">lorem sin blablabla</a></li>
+                    <li class="list-image-check">Lorem sin blabla</li>
+                    <li class="list-image-check">Lorem sin blabla</li>
+                    <li class="list-image-check">Lorem sin blabla</li>
+                    <li class="list-image-check">Lorem sin blabla</li>
+                    <li class="list-image-check">Lorem sin blabla</li>
                 </div>
-                
-                <a class="absolute bg-primary font-areaextended text-center text-sm text-secondary bottom-0 left-1/2 -translate-x-1/2 my-6 border-solid border-primary rounded-full py-3 w-10/12" href="">Découvrir l'offre.</a>
+
+              <a class="absolute border-2 bg-primary hover:bg-secondary hover:border-tertiary font-areaextended hover:text-tertiary transition text-center text-sm text-secondary bottom-0 left-1/2 -translate-x-1/2 my-6 border-solid border-primary rounded-full py-3 w-10/12" href="">Découvrir l'offre.</a>
+
             </div>
 
             <!--Card-->
@@ -54,8 +55,6 @@
                 </div> -->
                 <img class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  h-auto w-10/12" src="../public/banner.svg" alt="">
             
-                
-                <!-- <a class="absolute bg-primary font-areaextended text-center text-sm text-secondary bottom-0 left-1/2 -translate-x-1/2 my-6 border-solid border-primary rounded-full py-3 w-10/12" href="">Découvrir l'offre.</a> -->
             </div>
         </div>
 

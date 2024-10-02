@@ -29,7 +29,7 @@
       </div>.
 
 
-    <a href="#services"><img class="absolute top-[90%] left-1/2 animate-bounce" src="../public/fleche_blanc.svg" alt=""></a>
+    <a href="#services"><img class="absolute top-[90%] translate-x-[-50%] left-1/2 animate-bounce" src="../public/fleche_blanc.svg" alt=""></a>
     </div>
   </template>
   
