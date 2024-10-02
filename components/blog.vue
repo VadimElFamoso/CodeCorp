@@ -11,10 +11,7 @@
                 <a href="">Lire l'article.</a>
             </div>
         </div>
-    </div>  
-
-    
-
+    </div>
 </template>
 
 <script setup>
