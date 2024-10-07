@@ -1,14 +1,46 @@
 <template>
-    <div class="relative border-primary border-t-8 bg-secondary py-8 w-full">
-        <img class="h-auto m-auto pb-4 w-3/12" src="../public/codecorp_logo_text.png" alt="">
-        <div class="flex flex-col items-center font-ethnocentric gap-2  text-tertiary text-lg underline">
-            <a class="hover:text-primary transition" href="">Services</a>
-            <a class="hover:text-primary transition" href="">Projets</a>
-            <a class="hover:text-primary transition" href="">A propos</a>
-            <a class="hover:text-primary transition" href="">Blog</a>
-            <a class="hover:text-primary transition" href="">Mentions légales</a>
+    <div class="bg-secondary border-primary border-t-8 py-20 w-full">
+        <!-- Footer flex container -->
+        <div class="flex gap-20 justify-center items-center">
+
+          <!-- Logo et mentions légales -->
+          <div class="basis-2/12 text-tertiary">
+            <img class="h-auto mb-3 w-[350px]" src="../public/codecorp_logo.png" alt="">
+            <div class="flex flex-col opacity-70 font-area text-sm">
+              <p>CodeCorp est une agence digitale <br/>nancéienne fondée en 2023.</p>
+              <p>Copyright 2024&copy;</p>
+            </div>
+          </div>
+
+          <!-- Menu de navigation -->
+          <div class="basis-2/12 flex flex-col font-ethnocentric text-sm text-white">
+            <h2 class="my-2 text-lg">Navigation :</h2>
+            <a href="#" class="font-light hover:text-primary underline transition">A propos</a>
+            <a href="#" class="font-light hover:text-primary underline transition">Services</a>
+            <a href="#" class="font-light hover:text-primary underline transition">Projets</a>
+            <a href="#" class="font-light hover:text-primary underline transition">Nous contacter</a>
+          </div>
+
+          <!-- Menu de navigation -->
+          <div class="basis-2/12 flex flex-col font-ethnocentric text-sm text-white">
+            <h2 class="my-2 text-lg">A propos :</h2>
+            <a href="#" class="font-light hover:text-primary underline transition">Mentions légales</a>
+            <a href="#" class="font-light hover:text-primary underline transition">FAQ</a>
+            <a href="#" class="font-light hover:text-primary underline transition">Facturation et abonnements</a>
+            <a href="#" class="font-light hover:text-primary underline transition">Support technique</a>
+          </div>
+
+          <div class="font-area text-tertiary">
+            <h2>Inscrivez-vous à notre newsletter :</h2>
+            <form action="" method="post">
+              <input type="email" name="email" id="email" placeholder="Votre adresse email">
+              <button class="bg-primary mx-5 text-secondary px-5 py-2" type="submit">S'inscrire</button>
+            </form>
+          </div>
+
+<!--<p class="font-ethnocentric text-xs text-tertiary italic opacity-60">Made with <span class="text-red-500">&#10084;</span> in Nancy.</p>-->
         </div>
-        <p class="font-ethnocentric text-center text-xs text-tertiary italic mt-5 opacity-85">Made with <span class="text-red-500">&#10084;</span> in Nancy.</p>
+
     </div>
 </template>
 
