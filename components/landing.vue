@@ -18,24 +18,45 @@
           <a href="#" class="hover:text-primary underline p-2 transition">A propos</a>
           <a href="#" class="hover:text-primary underline p-2 transition">Services</a>
           <a href="#" class="hover:text-primary underline p-2 transition">Projets</a>
-          <a href="#" class="text-tertiary border-2 border-tertiary border-solid p-2">Nous contacter</a>
+          <a href="#" class="text-primary border-2 border-primary border-solid p-2">Nous contacter</a>
 
       </div>
       <!---------------------------------------->
-  
+
       <!--Hero section-->
       <div class="absolute -translate-x-1/2 -translate-y-1/2 top-[45%] left-1/2 font-ethnocentric font-bold text-tertiary text-5xl w-10/12 z-10">
         <p>Nous façonnons l'architecture, le paysage et l'intérieur du web moderne.</p>
       </div>.
 
 
-    <a href="#services"><img class="absolute top-[90%] translate-x-[-50%] left-1/2 animate-bounce" src="../public/fleche_blanc.svg" alt=""></a>
+      <a href="#services"><img class="absolute m-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bottom-10" src="../public/fleche_blanc.svg" alt=""></a>
     </div>
   </template>
-  
+
   <script>
   export default {
-  
+
   }
   </script>
-  
+
+<style scoped>
+
+a[href="#services"] img {
+  animation: bounce 3s infinite;
+  cursor: pointer;
+  transition: all 0.3s;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translate3d(-50%, -20%, 0); /* Combine translation horizontale et verticale */
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translate3d(-50%, 0, 0); /* Garde le centrage tout en animant sur Y */
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+</style>
