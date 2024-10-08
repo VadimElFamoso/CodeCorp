@@ -4,21 +4,24 @@
 
       <!-- Background Video -->
       <div>
-        <video autoplay muted loop id="myVideo" class="absolute right-0 bottom-0 opacity-25 min-h-full min-w-full z-0">
+        <video autoplay muted loop id="myVideo" class="absolute right-0 bottom-0 opacity-25 min-h-full min-w-full object-cover z-0">
           <source src="../public/video.mp4" type="video/mp4">
         </video>
       </div>
 
       <!-- Menu de navigation -->
-      <div class="relative flex font-ethnocentric justify-end gap-5 text-lg text-white px-5 py-5 z-20">
+      <div class="">
       <!-- <img class="absolute left-2 top-2 p-2 h-auto w-1/12" src="../public/burger_menu.svg" alt=""> -->
 
-        <img class="absolute left-5 top-[1.25rem] p-2 h-auto w-[300px]" src="../public/codecorp_logo.png" alt="">
+        <img class="absolute hidden left-5 top-[1.25rem] p-2 h-auto w-[300px]" src="../public/codecorp_logo.png" alt="">
 
-          <a href="#" class="hover:text-primary underline p-2 transition">A propos</a>
+        <div class="relative hidden flex font-ethnocentric justify-end gap-5 text-lg text-white px-5 py-5 z-20">
           <a href="#" class="hover:text-primary underline p-2 transition">Services</a>
+          <a href="#" class="hover:text-primary underline p-2 transition">Tarification</a>
           <a href="#" class="hover:text-primary underline p-2 transition">Projets</a>
           <a href="#" class="text-primary border-2 border-primary border-solid p-2">Nous contacter</a>
+        </div>
+
 
       </div>
       <!---------------------------------------->
