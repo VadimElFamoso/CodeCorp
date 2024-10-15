@@ -9,25 +9,30 @@
         </video>
       </div>
 
-      <!-- Menu de navigation -->
-      <div class="">
-      <!-- <img class="absolute left-2 top-2 p-2 h-auto w-1/12" src="../public/burger_menu.svg" alt=""> -->
+      <!-- Menu de navigation desktop -->
+      <div id="desktop_menu" class="relative hidden font-ethnocentric justify-end gap-5 text-lg text-white px-5 py-5 z-20">
+        <img class="absolute left-5 top-[1.25rem] p-2 h-auto w-[300px]" src="../public/codecorp_logo.png" alt="">
+        <a href="#" class="hover:text-primary underline p-2 transition">Services</a>
+        <a href="#" class="hover:text-primary underline p-2 transition">Tarification</a>
+        <a href="#" class="hover:text-primary underline p-2 transition">Projets</a>
+        <a href="#" class="text-primary border-2 border-primary border-solid p-2">Nous contacter</a>
+      </div>
+      <!---------------------------------------->
 
-        <img class="absolute hidden left-5 top-[1.25rem] p-2 h-auto w-[300px]" src="../public/codecorp_logo.png" alt="">
+      <!-- Menu de navigation mobile -->
 
-        <div class="relative hidden flex font-ethnocentric justify-end gap-5 text-lg text-white px-5 py-5 z-20">
-          <a href="#" class="hover:text-primary underline p-2 transition">Services</a>
-          <a href="#" class="hover:text-primary underline p-2 transition">Tarification</a>
-          <a href="#" class="hover:text-primary underline p-2 transition">Projets</a>
-          <a href="#" class="text-primary border-2 border-primary border-solid p-2">Nous contacter</a>
-        </div>
-
-
+      <div id="mobile_menu" class="bg-primary items-center relative flex flex-col font-ethnocentric justify-center gap-1 text-lg text-white px-5 py-5 h-screen transition z-20">
+        <img id="close_mobile_menu" class="absolute top-4 right-4 " src="../public/xmark-solid.svg" alt="" width="50" height="50">
+        <img class="p-2 h-auto w-[500px]" src="../public/codecorp_logo_white_text.png" alt="">
+        <a href="#" class="hover:text-primary underline p-2 transition">Services</a>
+        <a href="#" class="hover:text-primary underline p-2 transition">Tarification</a>
+        <a href="#" class="hover:text-primary underline p-2 transition">Projets</a>
+        <a href="#" class="hover:text-primary underline p-2 transition">Nous contacter</a>
       </div>
       <!---------------------------------------->
 
       <!--Hero section-->
-      <div class="absolute -translate-x-1/2 -translate-y-1/2 top-[45%] left-1/2 font-ethnocentric font-bold text-tertiary text-5xl w-10/12 z-10">
+      <div class="absolute hidden -translate-x-1/2 -translate-y-1/2 top-[45%] left-1/2 font-ethnocentric font-bold text-tertiary text-4xl w-10/12 z-10">
         <p>Nous façonnons l'architecture, le paysage et l'intérieur du web moderne.</p>
       </div>.
 
@@ -38,7 +43,16 @@
 
   <script>
   export default {
+    mounted(){
+      const button = document.querySelector('#close_mobile_menu');
+      const mobile_menu = document.querySelector('#mobile_menu');
+      console.log(button);
 
+      button.addEventListener('click', () => {
+        console.log('click');
+        mobile_menu.classList.add('-translate-x-[100vh]');
+      });
+    }
   }
   </script>
 
