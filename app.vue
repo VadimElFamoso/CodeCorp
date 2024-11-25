@@ -4,6 +4,7 @@
           <services/>
           <plans/>
           <projects/>
+          <contact/>
            <ftr/>
      </div>
 </template>

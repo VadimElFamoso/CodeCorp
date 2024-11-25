@@ -8,56 +8,56 @@
 
         <div class="relative project_card">
             <img class="h-[325px] w-[325px] object-cover" src="../public/dev.jpg" alt="">
-            <div class="absolute hidden -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 text-center text-tertiary details">
+            <div class="absolute -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 text-center text-tertiary details">
                 <h3 class="bg-primary font-ethnocentric p-2 -rotate-6 text-secondary text-2xl">Boulangerie</h3>
             </div>
         </div>
 
         <div class="relative project_card">
             <img class="h-[325px] w-[325px] object-cover" src="../public/dev.jpg" alt="">
-            <div class="absolute hidden -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 text-center text-tertiary details">
+            <div class="absolute -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 text-center text-tertiary details">
                 <h3 class="bg-primary font-ethnocentric p-2 -rotate-6 text-secondary text-2xl">Boulangerie</h3>
             </div>
         </div>
 
         <div class="relative project_card">
             <img class="h-[325px] w-[325px] object-cover" src="../public/dev.jpg" alt="">
-            <div class="absolute hidden -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 text-center text-tertiary details">
+            <div class="absolute -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 text-center text-tertiary details">
                 <h3 class="bg-primary font-ethnocentric p-2 -rotate-6 text-secondary text-2xl">Boulangerie</h3>
             </div>
         </div>
 
         <div class="relative project_card">
             <img class="h-[325px] w-[325px] object-cover" src="../public/dev.jpg" alt="">
-            <div class="absolute hidden -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 text-center text-tertiary details">
+            <div class="absolute -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 text-center text-tertiary details">
                 <h3 class="bg-primary font-ethnocentric p-2 -rotate-6 text-secondary text-2xl">Boulangerie</h3>
             </div>
         </div>
 
         <div class="relative project_card">
             <img class="h-[325px] w-[325px] object-cover" src="../public/dev.jpg" alt="">
-            <div class="absolute hidden -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 text-center text-tertiary details">
+            <div class="absolute -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 text-center text-tertiary details">
                 <h3 class="bg-primary font-ethnocentric p-2 -rotate-6 text-secondary text-2xl">Boulangerie</h3>
             </div>
         </div>
 
         <div class="relative project_card">
             <img class="h-[325px] w-[325px] object-cover" src="../public/dev.jpg" alt="">
-            <div class="absolute hidden -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 text-center text-tertiary details">
+            <div class="absolute -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 text-center text-tertiary details">
                 <h3 class="bg-primary font-ethnocentric p-2 -rotate-6 text-secondary text-2xl">Boulangerie</h3>
             </div>
         </div>
 
         <div class="relative project_card">
             <img class="h-[325px] w-[325px] object-cover" src="../public/dev.jpg" alt="">
-            <div class="absolute hidden -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 text-center text-tertiary details">
+            <div class="absolute -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 text-center text-tertiary details">
                 <h3 class="bg-primary font-ethnocentric p-2 -rotate-6 text-secondary text-2xl">Boulangerie</h3>
             </div>
         </div>
 
         <div class="relative project_card">
             <img class="h-[325px] w-[325px] object-cover" src="../public/dev.jpg" alt="">
-            <div class="absolute hidden -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 text-center text-tertiary details">
+            <div class="absolute -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 text-center text-tertiary details">
                 <h3 class="bg-primary font-ethnocentric p-2 -rotate-6 text-secondary text-2xl">Boulangerie</h3>
             </div>
         </div>
@@ -75,10 +75,17 @@
   }
   </script>
 
-  <style>
-      .project_card:hover .details{
-          display: flex;
-          flex-direction: column;
-          gap: .75rem;
-      }
-  </style>
+<style>
+.project_card .details  {
+  opacity: 0;
+  transition: opacity .4s ease-in-out;
+}
+
+.project_card:hover .details {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  opacity: 1;
+}
+</style>

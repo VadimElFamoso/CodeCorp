@@ -10,8 +10,8 @@
       </div>
 
       <!-- Menu de navigation desktop -->
-      <div id="desktop_menu" class="relative hidden font-ethnocentric justify-end gap-5 text-lg text-white px-5 py-5 z-20">
-        <img class="absolute left-5 top-[1.25rem] p-2 h-auto w-[300px]" src="../public/codecorp_logo.png" alt="">
+      <div id="desktop_menu" class="items-center flex relative font-ethnocentric justify-end gap-5 text-lg text-white px-5 py-5 z-20">
+        <img class="absolute mt-2 left-5 top-[1.25rem] p-2 h-auto w-[20%]" src="../public/codecorp_logo.png" alt=""> <!--MT mauvais cas d'usage pour fix-->
         <a href="#" class="hover:text-primary underline p-2 transition">Services</a>
         <a href="#" class="hover:text-primary underline p-2 transition">Tarification</a>
         <a href="#" class="hover:text-primary underline p-2 transition">Projets</a>
@@ -20,9 +20,8 @@
       <!---------------------------------------->
 
       <!-- Menu de navigation mobile -->
-
-      <div id="mobile_menu" class="bg-primary items-center relative flex flex-col font-ethnocentric justify-center gap-1 text-lg text-white px-5 py-5 h-screen transition z-20">
-        <img id="close_mobile_menu" class="absolute top-4 right-4 " src="../public/xmark-solid.svg" alt="" width="50" height="50">
+      <img id="icon_mobile_menu" class="absolute hidden top-4 right-4 z-50" src="../public/xmark-solid.svg" alt="" width="50" height="50">
+      <div id="mobile_menu" class="bg-primary hidden items-center relative flex flex-col -translate-x-[100vh] font-ethnocentric justify-center gap-1 text-lg text-white px-5 py-5 h-screen transition z-20">
         <img class="p-2 h-auto w-[500px]" src="../public/codecorp_logo_white_text.png" alt="">
         <a href="#" class="hover:text-primary underline p-2 transition">Services</a>
         <a href="#" class="hover:text-primary underline p-2 transition">Tarification</a>
@@ -32,7 +31,7 @@
       <!---------------------------------------->
 
       <!--Hero section-->
-      <div class="absolute hidden -translate-x-1/2 -translate-y-1/2 top-[45%] left-1/2 font-ethnocentric font-bold text-tertiary text-4xl w-10/12 z-10">
+      <div class="absolute -translate-x-1/2 -translate-y-1/2 top-[45%] left-1/2 font-ethnocentric font-bold text-tertiary text-5xl w-10/12 z-10">
         <p>Nous façonnons l'architecture, le paysage et l'intérieur du web moderne.</p>
       </div>.
 
@@ -44,13 +43,15 @@
   <script>
   export default {
     mounted(){
-      const button = document.querySelector('#close_mobile_menu');
+      const icon = document.querySelector('#icon_mobile_menu');
       const mobile_menu = document.querySelector('#mobile_menu');
-      console.log(button);
+      const desktop_menu = document.querySelector('#desktop_menu');
+      console.log(icon);
 
-      button.addEventListener('click', () => {
+      icon.addEventListener('click', () => {
         console.log('click');
-        mobile_menu.classList.add('-translate-x-[100vh]');
+        mobile_menu.classList.toggle('hidden');
+        mobile_menu.classList.toggle('-translate-x-[100vh]');
       });
     }
   }
