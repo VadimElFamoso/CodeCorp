@@ -11,6 +11,7 @@
 
 <style>
      html{
+       background-color: #F1F2EE;
           scroll-behavior: smooth;
      }
 </style>

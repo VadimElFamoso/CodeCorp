@@ -1,10 +1,11 @@
 <template>
-    <div class="relative bg-tertiary opacity-100 h-screen w-full">
+    <div class="relative opacity-100 w-full">
       <div class="border-b-2 border-secondary m-auto font-ethnocentric font-bold text-secondary text-5xl py-16 w-10/12">
           <h2>Projets</h2>
       </div>
 
-      <div class="my-10 grid grid-cols-4 grid-rows-2 gap-10 justify-self-center items-end w-10/12 justify-items-center m-auto">
+      <!--Grid container-->
+      <div class="my-10 grid grid-cols-4 grid-rows-2 gap-10 w-10/12 justify-items-center m-auto">
 
         <div class="relative project_card">
             <img class="h-[325px] w-[325px] object-cover" src="../public/dev.jpg" alt="">

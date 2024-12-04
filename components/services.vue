@@ -1,5 +1,5 @@
 <template>
-    <div id ="services" class="relative bg-tertiary opacity-100 h-screen w-full">
+    <div id ="services" class="relative opacity-100 h-screen w-full">
         <div class="border-b-2 border-secondary m-auto font-ethnocentric font-bold text-secondary text-5xl py-16 w-10/12">
             <h2>Services</h2>
         </div>
@@ -46,7 +46,7 @@ export default {
     height: 150px;
     bottom: 0;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0);
     overflow: hidden;
 }
 .marquee {
