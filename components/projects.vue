@@ -5,7 +5,7 @@
       </div>
 
       <!--Grid container-->
-      <div class="my-10 grid grid-cols-4 grid-rows-2 gap-10 w-10/12 justify-items-center m-auto">
+      <div class="bg-red-700 my-10 grid grid-cols-4 grid-rows-2 gap-10 w-10/12 justify-items-center m-auto">
 
         <div class="relative project_card">
             <img class="h-[325px] w-[325px] object-cover" src="../public/dev.jpg" alt="">

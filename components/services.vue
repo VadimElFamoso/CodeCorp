@@ -1,19 +1,20 @@
 <template>
-    <div id ="services" class="relative opacity-100 h-screen w-full">
+    <div id="services" class="relative opacity-100 h-auto w-full">
         <div class="border-b-2 border-secondary m-auto font-ethnocentric font-bold text-secondary text-5xl py-16 w-10/12">
             <h2>Services</h2>
         </div>
-        <div class="relative gap-40 m-auto w-10/12 flex flex-row-reverse">
+        <div class="relative gap-40 m-auto w-10/12 my-12 flex flex-row-reverse">
             <div>
                 <img class="w-[400px] h-[400px] right-0 top-0 object-cover" src="../public/dev.jpg" alt="">
                 <p class=""></p>
             </div>
-            <div class="flex flex-col gap-8 text-right text-2xl justify-end text-secondary underline font-ethnocentric font-bold">
-                <a class= "hover:text-primary transition" href="">Création de sites web</a>
-                <a class= "hover:text-primary transition" href="">Audit web</a>
-                <a class= "hover:text-primary transition" href="">Optimisation SEO</a>
-                <a class= "hover:text-primary transition" href="">Prototypage UI/UX</a>
-                <a class= "hover:text-primary transition" href="">Cybersécurité</a>
+            <div class="flex flex-col gap-8 services text-right text-2xl justify-end text-secondary underline font-ethnocentric font-bold">
+                <a class= "hover:text-primary service transition" href="">Création de sites web</a>
+                <a class= "hover:text-primary service transition" href="">Audit web</a>
+                <a class= "hover:text-primary service transition" href="">Optimisation SEO</a>
+                <a class= "hover:text-primary service transition" href="">Prototypage UI/UX</a>
+                <a class= "hover:text-primary service transition" href="">Cybersécurité</a>
+                <a class="hover:text-primary service transition" href="">Informatique généraliste</a>
              </div>
         </div>
 
@@ -35,18 +36,30 @@
 
 <script>
 export default {
+  mounted(){
+    const services = document.querySelectorAll(".services .service");
 
+    const services_images_map = [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+    ]
+    services.forEach(service => {
+      service.addEventListener("hover", (i) => {
+        console.log(`Le service ${i} a été survolé`);
+      })
+    })
+  }
 }
 </script>
 
 <style>
 .marquee-w {
-    position: absolute;
     width: 100%;
     height: 150px;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%, 0);
     overflow: hidden;
 }
 .marquee {

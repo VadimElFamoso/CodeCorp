@@ -14,12 +14,12 @@
       </div>
 
       <!--Contact form-->
-      <div class="contact_form h-auto w-[60vw] text-tertiary">
+      <div class="contact_form h-auto w-[60vw] text-tertiary py-5">
         <div class="bg-primary border-tertiary m-auto font-ethnocentric font-bold my-10 rotate-3 text-center text-secondary text-3xl p-4 w-10/12">
         <h2>Propulsez votre vision <br>dans le futur</h2>
         </div>
 
-        <form action="" class="font-areaextended flex flex-col gap-10 m-auto w-10/12">
+        <form action="send_form.php" class="font-areaextended flex flex-col gap-10 m-auto w-10/12">
 
           <!--Name container-->
           <div class="flex gap-10">
@@ -61,9 +61,15 @@
             </select>
           </div>
 
+          <!--Message-->
           <div>
             <p>Message :</p>
-            <textarea class="border-b-2 border-tertiary bg-secondary pt-1 pb-1 h-auto w-full" name="" id="" cols="30" rows="5"></textarea>
+            <textarea class="border-b-2 border-tertiary bg-secondary pt-1 pb-1 h-auto w-full" name="" id="" cols="25" rows="3"></textarea>
+          </div>
+
+          <!--Send message-->
+          <div class="m-auto">
+            <input class="bg-primary cursor-pointer font-areaextended text-secondary px-12 py-2" type="submit">
           </div>
         </form>
 
