@@ -5,7 +5,7 @@
         </div>
         <div class="relative gap-40 m-auto w-10/12 my-12 flex flex-row-reverse">
             <div>
-                <img class="w-[400px] h-[400px] right-0 top-0 object-cover" src="../public/dev.jpg" alt="">
+                <img id="service_image" class="w-[400px] h-[400px] right-0 top-0 object-cover transition" src="../public/services/a.jpg" alt="">
                 <p class=""></p>
             </div>
             <div class="flex flex-col gap-8 services text-right text-2xl justify-end text-secondary underline font-ethnocentric font-bold">
@@ -36,22 +36,24 @@
 
 <script>
 export default {
-  mounted(){
+  mounted() {
     const services = document.querySelectorAll(".services .service");
+    const services_image = document.querySelector('#service_image');
 
     const services_images_map = [
-        "a",
-        "b",
-        "c",
-        "d",
-        "e",
-        "f",
-    ]
-    services.forEach(service => {
-      service.addEventListener("hover", (i) => {
-        console.log(`Le service ${i} a été survolé`);
-      })
-    })
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+    ];
+
+    services.forEach((service, index) => {
+      service.addEventListener("mouseover", () => {
+        services_image.src = `_nuxt/public/services/${services_images_map[index]}.jpg`;
+      });
+    });
   }
 }
 </script>
@@ -84,6 +86,7 @@ export default {
 .marquee2 span {
     animation-delay: 5s;
 }
+
 @keyframes marquee {
     0% {
         transform: translate(0, 0);

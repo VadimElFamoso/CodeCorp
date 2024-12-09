@@ -5,59 +5,59 @@
       </div>
 
       <!--Grid container-->
-      <div class="bg-red-700 my-10 grid grid-cols-4 grid-rows-2 gap-10 w-10/12 justify-items-center m-auto">
+      <div id="projects_grid" class="w-10/12 justify-items-center m-auto my-10">
 
         <div class="relative project_card">
-            <img class="h-[325px] w-[325px] object-cover" src="../public/dev.jpg" alt="">
+            <img class="h-[300px] w-[300px] object-cover" src="../public/dev.jpg" alt="">
             <div class="absolute -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 text-center text-tertiary details">
                 <h3 class="bg-primary font-ethnocentric p-2 -rotate-6 text-secondary text-2xl">Boulangerie</h3>
             </div>
         </div>
 
         <div class="relative project_card">
-            <img class="h-[325px] w-[325px] object-cover" src="../public/dev.jpg" alt="">
+            <img class="h-[300px] w-[300px] object-cover" src="../public/dev.jpg" alt="">
             <div class="absolute -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 text-center text-tertiary details">
                 <h3 class="bg-primary font-ethnocentric p-2 -rotate-6 text-secondary text-2xl">Boulangerie</h3>
             </div>
         </div>
 
         <div class="relative project_card">
-            <img class="h-[325px] w-[325px] object-cover" src="../public/dev.jpg" alt="">
+            <img class="h-[300px] w-[300px] object-cover" src="../public/dev.jpg" alt="">
             <div class="absolute -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 text-center text-tertiary details">
                 <h3 class="bg-primary font-ethnocentric p-2 -rotate-6 text-secondary text-2xl">Boulangerie</h3>
             </div>
         </div>
 
         <div class="relative project_card">
-            <img class="h-[325px] w-[325px] object-cover" src="../public/dev.jpg" alt="">
+            <img class="h-[300px] w-[300px] object-cover" src="../public/dev.jpg" alt="">
             <div class="absolute -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 text-center text-tertiary details">
                 <h3 class="bg-primary font-ethnocentric p-2 -rotate-6 text-secondary text-2xl">Boulangerie</h3>
             </div>
         </div>
 
         <div class="relative project_card">
-            <img class="h-[325px] w-[325px] object-cover" src="../public/dev.jpg" alt="">
+            <img class="h-[300px] w-[300px] object-cover" src="../public/dev.jpg" alt="">
             <div class="absolute -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 text-center text-tertiary details">
                 <h3 class="bg-primary font-ethnocentric p-2 -rotate-6 text-secondary text-2xl">Boulangerie</h3>
             </div>
         </div>
 
         <div class="relative project_card">
-            <img class="h-[325px] w-[325px] object-cover" src="../public/dev.jpg" alt="">
+            <img class="h-[300px] w-[300px] object-cover" src="../public/dev.jpg" alt="">
             <div class="absolute -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 text-center text-tertiary details">
                 <h3 class="bg-primary font-ethnocentric p-2 -rotate-6 text-secondary text-2xl">Boulangerie</h3>
             </div>
         </div>
 
         <div class="relative project_card">
-            <img class="h-[325px] w-[325px] object-cover" src="../public/dev.jpg" alt="">
+            <img class="h-[300px] w-[300px] object-cover" src="../public/dev.jpg" alt="">
             <div class="absolute -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 text-center text-tertiary details">
                 <h3 class="bg-primary font-ethnocentric p-2 -rotate-6 text-secondary text-2xl">Boulangerie</h3>
             </div>
         </div>
 
         <div class="relative project_card">
-            <img class="h-[325px] w-[325px] object-cover" src="../public/dev.jpg" alt="">
+            <img class="h-[300px] w-[300px] object-cover" src="../public/dev.jpg" alt="">
             <div class="absolute -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 text-center text-tertiary details">
                 <h3 class="bg-primary font-ethnocentric p-2 -rotate-6 text-secondary text-2xl">Boulangerie</h3>
             </div>
@@ -77,6 +77,13 @@
   </script>
 
 <style>
+
+#projects_grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 2rem;
+}
 .project_card .details  {
   opacity: 0;
   transition: opacity .4s ease-in-out;
