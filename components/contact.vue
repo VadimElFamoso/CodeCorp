@@ -14,12 +14,12 @@
       </div>
 
       <!--Contact form-->
-      <div class="contact_form h-auto w-[60vw] text-tertiary py-5">
+      <div class="contact_form flex flex-col gap-4 h-auto justify-center w-[60vw] text-tertiary py-5">
         <div class="bg-primary border-tertiary m-auto font-ethnocentric font-bold my-10 rotate-3 text-center text-secondary text-3xl p-4 w-10/12">
           <h2>Propulsez votre vision <br>dans le futur !</h2>
         </div>
 
-        <form action="send_form.php" class="font-areaextended flex flex-col gap-10 m-auto w-10/12">
+        <form action="send_form.php" class="font-areaextended flex flex-col gap-10 ml-auto mr-auto w-10/12">
 
           <!--Name container-->
           <div class="flex gap-10">
